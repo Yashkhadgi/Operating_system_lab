@@ -1,0 +1,75 @@
+lab-02-26@lab-02-26-OptiPlex-3280-AIO:~$ cd 1091_os
+lab-02-26@lab-02-26-OptiPlex-3280-AIO:~/1091_os$ cd temp1/
+lab-02-26@lab-02-26-OptiPlex-3280-AIO:~/1091_os/temp1$ cd temp2/
+lab-02-26@lab-02-26-OptiPlex-3280-AIO:~/1091_os/temp1/temp2$ ls
+a.out  for_loop.c  if_else.c  while_loop.c
+
+lab-02-26@lab-02-26-OptiPlex-3280-AIO:~/1091_os/temp1/temp2$ pwd
+/home/lab-02-26/1091_os/temp1/temp2
+
+lab-02-26@lab-02-26-OptiPlex-3280-AIO:~/1091_os/temp1/temp2$ gcc if_else.c
+lab-02-26@lab-02-26-OptiPlex-3280-AIO:~/1091_os/temp1/temp2$ ./a.out
+Enter no = 142
+Even
+
+lab-02-26@lab-02-26-OptiPlex-3280-AIO:~/1091_os/temp1/temp2$ ./a.out
+Enter no = 135
+Odd
+
+lab-02-26@lab-02-26-OptiPlex-3280-AIO:~/1091_os/temp1/temp2$ gcc for_loop.c
+lab-02-26@lab-02-26-OptiPlex-3280-AIO:~/1091_os/temp1/temp2$ ./a.out
+Enter no = 4
+1
+2
+3
+4
+
+lab-02-26@lab-02-26-OptiPlex-3280-AIO:~/1091_os/temp1/temp2$ gcc while_loop.c
+lab-02-26@lab-02-26-OptiPlex-3280-AIO:~/1091_os/temp1/temp2$ ./a.out
+Enter no = 6
+Sum = 32786
+
+/*if_else_loop.c code
+#include<stdio.h>
+
+void main(){
+int i,n;
+printf("Enter no = ");
+scanf("%d",&n);
+
+for(i=1;i<=n;i++){
+printf("%d\n",i);
+}
+}*/
+
+/*for_loop
+#include<stdio.h>
+
+void main(){
+int n;
+printf("Enter no = ");
+scanf("%d",&n);
+if(n%2==0){
+printf("Even\n");
+}else{
+printf("Odd\n");
+}
+}*/
+
+/*while_loop 
+#include<stdio.h>
+
+void main(){
+int i=1,n,sum;
+
+printf("Enter no = ");
+scanf("%d",&n);
+
+while(i<=n){
+sum=sum+i;
+i++;
+}
+printf("Sum = %d\n",sum);
+}*/
+
+ 
