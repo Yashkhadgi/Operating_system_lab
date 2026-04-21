@@ -1,0 +1,48 @@
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1$ cd Temp1/
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1/Temp1$ vi pr1.txt
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1/Temp1$ cd ..
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1$ cd Temp1
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1/Temp1$ cd ..
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os$ cd ..
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os$ ls
+OS1  OS1
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os$ pwd
+/home/sit-lab-1/1091_os
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os$ cd Os1/
+bash: cd: Os1/: No such file or directory
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os$ cd OS1/
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1$ cd Temp1/
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1/Temp1$ mkdir temp2
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1/Temp1$ cd temp2/
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1/Temp1/temp2$ vi pr1.txt
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1/Temp1/temp2$ pwd
+/home/sit-lab-1/1091_os/OS1/Temp1/temp2
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1/Temp1/temp2$ ls
+pr1.txt
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1/Temp1/temp2$ cd ..
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1/Temp1$ cd ..
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1$ vi pr1.c
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1$ ls
+pr1.c  Temp1
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1$ gcc pr1.c
+
+pr1.c: In function ‘main’:
+pr1.c:5:22: error: expected ‘;’ before ‘}’ token
+    5 | printf("Hello There")
+      |                      ^
+      |                      ;
+    6 | }
+      | ~
+
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1$ vi pr1.c
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1$ gcc pr1.c
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1$ ./a.out
+bash: ./a: No such file or directory
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1$ ./a.out
+Hello There
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1$ vi pr2.c
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1$ gcc pr2.c
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1$ ./a.out
+Sum = 16
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1$ vi pr2.c
+sit-lab-1@sit-lab-1-OptiPlex-3280-AIO:~/1091_os/OS1$
